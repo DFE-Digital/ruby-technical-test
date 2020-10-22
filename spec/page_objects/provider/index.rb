@@ -2,7 +2,7 @@ module PageObjects
   module Provider
     class Index < SitePrism::Page
       class ProviderRow < SitePrism::Section
-        element :name, "providers__name"
+        element :name, ".providers__name"
       end
 
       set_url "/"
